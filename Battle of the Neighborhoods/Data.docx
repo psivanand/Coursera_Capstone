@@ -4,8 +4,19 @@ DATA:
 
 This project mainly uses the data provided by FourSquare API.
 
-The data collected is of Toronto, SanFrancisco, London and Melbourne and these neighbourhoods are clustered using K-Means Clustering based on the presence of Indian restaurants and labelled from Must visit while home sick to Must Not visit while homesick. 
+The data collected is of Toronto, SanFrancisco, London and Melbourne and these neighbourhoods are clustered using 
+K-Means Clustering based on the presence of Indian restaurants and labelled from Must visit while home sick to Must Not visit while homesick. 
+
+The Example of Data Analysis for Toronto:
+
+  - > Use FourSquare to fetch the latitudes and longitudes of Toronto
+  -> Use FourSquare to analyse the neighborhoods around 10KM radius
+  -> Cluster using KMeans Clustering
+  -> Fetch the restuarant list filtering by Indian Restuarants from each cluster
+  -> Label the Clusters from Must Visit to Must Not Visit for home sick Indian Stomach
+  -> Display top 10 restaurants from Must Visit Neighbourhood in Toronto
 
 
 From the Must Visit while home sick neighbour, 10 best Indian restaurants are chosen based on user ratings and tabulated from each of the 4 cities.
+
 
